@@ -1,6 +1,5 @@
 int[] nums = { 54, 7, -41, 2, 4, 2, 89, 33, -5, 12 };
 
-// сортировка
 int temp;
 for (int i = 0; i < nums.Length - 1; i++)
 {
@@ -15,7 +14,6 @@ for (int i = 0; i < nums.Length - 1; i++)
     }
 }
 
-// вывод
 Console.WriteLine("Вывод отсортированного массива");
 for (int i = 0; i < nums.Length; i++)
 {
